@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
        <title>Survay</title> 
     </head>
     <body>
@@ -15,7 +18,28 @@
     <main>
         <form id="survey-form">
             <section id="survey-fields">
-                
+<!-- Question 1 -->
+            <label for="dropdown">Question 1?</label>
+            <select id="dropdown" form="survey-form">
+                <option value="" disabled selected>select an option</option>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full time job</option>
+                <option value="full-time-learner">Full time learner</option>
+                <option value="prefer-not">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>  
+
+<!-- Question 2 -->
+            <label for="dropdown">Question 2?</label>
+            <select id="dropdown" form="survey-form">
+                <option value="" disabled selected>select an option</option>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full time job</option>
+                <option value="full-time-learner">Full time learner</option>
+                <option value="prefer-not">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select> 
+
             </section>
         </form>
     </main>
